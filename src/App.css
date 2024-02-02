@@ -1,0 +1,21 @@
+.App-container {
+    background: white; /* 배경색 */
+    padding: 2rem;
+    max-width: 100%; /* 최대 너비 */
+    margin: 1rem auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 박스 그림자 */
+  }
+  .cost{
+    display: flex;
+    justify-content: space-between; /* 요소들을 양 끝으로 분산 배치 */
+    align-items: center; /* 수직 방향 가운데 정렬 */
+    font-size: 1.5rem; /* 공통 폰트 사이즈 설정 */
+    float: right;
+  }
+  
+  
+  .cost .total {
+      margin-right: 10px;
+  }
+  
+  

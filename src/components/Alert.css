@@ -1,0 +1,17 @@
+.alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.alert-danger {
+  background:red;
+  color: white;
+}
+
+.alert-success {
+  background:  rgb(71, 180, 71);
+  color: white;
+}

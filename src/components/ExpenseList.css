@@ -1,0 +1,22 @@
+.expense-list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.btn-clear {
+  background-color: rgb(71, 180, 71); /* 배경색 */
+  color: white;
+  border: none;
+  padding: 0.6rem;
+  cursor: pointer;
+  width: 15%; /* 폭 100% */
+  border-radius: 5px; /* 모서리 둥글기 */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* 그림자 효과 */
+
+}
+.trash{
+  margin-left: 15px;
+}
+.btn-clear:hover {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* 그림자 효과 */
+}
